@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    align-items: center;
+    height: 100px;
+    padding: 0 1rem;
+
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    padding: 2.5rem 1rem;
+    position: relative;
+}
+
+.header .submenu {
+    flex-direction: column;
+    color: white;
+    position: absolute;
+    display: none;
+    background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);
+    border-radius: 10px;
+}
+
+.submenu a {
+    padding: 0.5rem 1.5rem;
+    width: 100%;
+}
+
+.submenu li {
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.header a:hover {
+    background-color: black;
+}
+
+.header li:hover .submenu {
+    display: flex;
+}
