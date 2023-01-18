@@ -24,7 +24,7 @@
 .header a {
     color: white;
     text-decoration: none;
-    padding: 2.5rem 1rem;
+    padding: 2rem 1rem;
     position: relative;
 }
 
@@ -32,9 +32,11 @@
     flex-direction: column;
     color: white;
     position: absolute;
+    top: 100px;
     display: none;
     background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);
-    border-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .submenu a {
